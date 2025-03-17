@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./resources/img/favicon.ico">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./resources/img/icon.png" alt="">
+            <h1>Lista de Contatos</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" name="" id="nome-contato" placeholder="Nome" required></input>
+            <input type="text" name="" id="telefone-contato" placeholder="Telefone" required></input>
+            <button type="submit">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total de contatos</td>
+                    <td id="contagem">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+</body>
+</html>
